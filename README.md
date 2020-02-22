@@ -5,7 +5,7 @@ Answers are recorded and Final Game score is displayed.
 
 Future items to include are a timer and a high score table
 
-https://travisguillory.github.io/Trivia2/
+Web link:   https://travisguillory.github.io/Trivia2/
 
-Repository: 
+Repository: https://github.com/TravisGuillory/Trivia2
 
