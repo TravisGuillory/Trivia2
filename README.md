@@ -9,4 +9,4 @@ Web link:   https://travisguillory.github.io/Trivia2/
 
 Repository: https://github.com/TravisGuillory/Trivia2
 
-(https://github.com/TravisGuillory/Trivia2/blob/master/assets/img/screen.png)
+![Screenshot of game](https://github.com/TravisGuillory/Trivia2/blob/master/assets/img/screen.png)
