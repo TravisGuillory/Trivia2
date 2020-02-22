@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(86, 82, 139);
+}
+
+.game-time{
+    display: none;
+}
+
+.post-game{
+    display:none
+}
+
+#inputContainer{
+    text-align: center;
+}
+
+.high-score{
+    display: none;
+}

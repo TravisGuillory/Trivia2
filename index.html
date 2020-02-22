@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Javascript Trivia</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="assets/css/styles.css" type="text/css">
+</head>
+
+<body>
+    <div class="container ">
+	  <div class="jumbotron text-center p-2 mt-3 ">
+		  <h1 class="display-4 pre-game"><strong>Javascript Trivia</strong></h1>
+
+		  <p class="lead pre-game">Welcome to Javascript Trivia. Click the Start Button to begin</p>
+		  <p>Select all of the correct answers before the clock runs out.</p>
+		  
+		  
+				<p class="lead pre-game"> <a class="btn btn-success btn-lg " id="startButton" href="#" role="button">Start</a> </p>
+			
+		  <div class="timerContainer text-center game-time " >
+			<h5 id="timeText">Time Remaining: &nbsp </h5><h5 id="seconds" >s</h5>
+		  </div>
+	  
+    </div>
+	
+	<!-- Game play area -->
+<div class="container col-lg-8 card game-time" id="gameArena">
+		<div class="text-center " id="currentQuestionContainer">
+		  <h4 class="card-header border mt-2">Select The Correct Answer</h4>
+
+			  <div class="row border mx-0 mt-1">
+			  	<div class="col" id="currentScore" >
+					Player Score
+				</div>
+				<div class="col" id="rounds">
+					Current Round / Rounds Remaining
+				</div>
+		  </div>
+			<div class="row m-0	">
+              <div class="col">
+                <h4 class="m-auto" id="currentQuestion">Current Question</h4>
+              </div>
+	      </div>			
+				
+			
+  </div>
+  <div class="card-body" id="optionsContainer">
+				<ul class="list-group list-group-flush" id="optionsList">
+					
+				</ul>
+			
+			</div>
+		
+</div>
+
+<!--post game scoreboard-->
+<div class="container col-lg-6 post-game" id= "resultsContainer">
+  <div class="card col-6 text-center mt-2 offset-xl-3"> 
+	  <img class="card-img-top t-2" src="assets/img/js_logo.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title" id="playerScore">Player Score</h5>
+	  <p class="card-text" id="scoreInfo" >Some text.</p>
+	  
+		
+	
+      <a  class="btn btn-primary" id="replayButton">Play Again</a> </div>
+  </div>
+</div>
+
+
+
+<script src="assets/javascript/gameScript.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</body>
+
+</html>
